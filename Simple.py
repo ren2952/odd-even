@@ -8,7 +8,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 def oddoreven(a, b):
-  if a%b=0:
+  if a%b==0:
     return 'even'
   else:
     return 'odd'
