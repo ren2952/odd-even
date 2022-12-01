@@ -14,8 +14,7 @@ def oddoreven(a):
     return 'odd'
 st.title('Simple')
 a = st.number_input(' a number')
-b = st.number_input('Enter another number')
-st.write(div(a, b))
+st.write(oddoreven(a))
 
 
 
