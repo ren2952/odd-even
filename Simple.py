@@ -7,8 +7,11 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-def div(a, b):
-  return a / b
+def oddoreven(a, b):
+  if a%b=0:
+    return 'even'
+  else:
+    return 'odd'
 st.title('Simple')
 a = st.number_input(' a number')
 b = st.number_input('Enter another number')
