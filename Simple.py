@@ -12,7 +12,7 @@ def oddoreven(a):
     return 'even'
   else:
     return 'odd'
-st.title('Simple')
+st.title('ODD - EVEN')
 a = st.number_input(' a number')
 st.write(oddoreven(a))
 
